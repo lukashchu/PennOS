@@ -19,7 +19,7 @@ PennOS is a Unix-like OS built in C, featuring a custom kernel with preemptive m
   - Round‑robin within each queue, starvation‑free by cyclical tick schedule  
   - **Logging** when scheduling a proess:  
     ```
-    [ticks]    SCHEDULE    PID    PRIORITY    PROCESS_NAME
+    [ticks]    SCHEDULE    PID    NICE_VALUE    PROCESS_NAME
     ```  
   - **Screenshot:** ![Scheduler log exerpt showing scheduling](/img/scheduling.png)
 
